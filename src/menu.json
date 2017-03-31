@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "applicationModuleParentId": 0,
+    "moduleName": "Menu"
+  },
+  {
+    "id": 2,
+    "applicationModuleParentId": 1,
+    "moduleName": "authentication",
+    "reactModule": "/authentication"
+  },
+  {
+    "id": 6,
+    "applicationModuleParentId": 2,
+    "moduleName": "access_profile",
+    "reactModule": "/authentication/access-profile",
+    "moduleActions": [
+      {
+        "id": 1,
+        "name": "read"
+      },
+      {
+        "id": 2,
+        "name": "record"
+      },
+      {
+        "id": 3,
+        "name": "delete"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "applicationModuleParentId": 2,
+    "moduleName": "users",
+    "reactModule": "/authentication/users",
+    "moduleActions": [
+      {
+        "id": 1,
+        "name": "read"
+      },
+      {
+        "id": 2,
+        "name": "record"
+      },
+      {
+        "id": 3,
+        "name": "delete"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "applicationModuleParentId": 1,
+    "moduleName": "program",
+    "reactModule": "/programs"
+  },
+  {
+    "id": 5,
+    "applicationModuleParentId": 4,
+    "moduleName": "program_registration",
+    "reactModule": "/programs\/list",
+    "moduleActions": [
+      {
+        "id": 1,
+        "name": "read"
+      },
+      {
+        "id": 2,
+        "name": "record"
+      },
+      {
+        "id": 3,
+        "name": "delete"
+      }
+    ]
+  }
+]

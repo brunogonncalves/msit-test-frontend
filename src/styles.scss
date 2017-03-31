@@ -1,0 +1,54 @@
+@import 'sass/vars';
+
+html {
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-size: 15px;
+  margin: 0;
+  line-height: 24px;
+}
+
+body {
+  margin: 0;
+  background-color: #efefef;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body, html, #app, #app > div{
+  height: 100%;
+}
+
+a {
+  color: $secondary-color;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.m-b-15 {
+  margin-bottom: 15px
+}
+
+.dialog-fullscreen-content {
+  .ag-material {
+     height: 72vh !important;
+   }
+}
+
+.dialog-content {
+  .ag-material {
+    height: 49vh !important;
+  }
+}
+
+@import 'sass/sidebar-menu';
+@import 'sass/header';
