@@ -83,7 +83,7 @@ class LeftDrawer extends React.Component {
           <Subheader>Menu</Subheader>
           <ListItem primaryText="Home" onClick={() => this.onClickItem('/')}/>
           <ListItem primaryText="Formulário de Exemplo" onClick={() => this.onClickItem('/example-page')}/>
-          <ListItem primaryText="Cadastro de Pessoas" onClick={() => this.onClickItem('/cadastro-pessoa-page')}/>
+          <ListItem primaryText="Cadastro de Pessoas" onClick={() => alert('ir para sua rota de cadastro de pessoas.')}/>
         </List>
 
       </Drawer>
